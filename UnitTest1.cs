@@ -14,6 +14,7 @@ namespace LambdaTestNunit
         public void setup()
         {
             driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
         }
 
         [TearDown]
